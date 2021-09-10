@@ -1,0 +1,22 @@
+#body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    border: 2px solid black;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+#color {
+    visibility: hidden;
+    height: 0px;
+}
